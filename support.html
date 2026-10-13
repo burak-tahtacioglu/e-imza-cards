@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff4ec">
+  <meta name="description" content="e-İmza Kartlar kurulum, kullanım ve sorun giderme desteği.">
+  <title>Destek — e-İmza Kartlar</title>
+  <link rel="icon" href="assets/app-icon.png">
+  <link rel="apple-touch-icon" href="assets/app-icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">İçeriğe geç</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="e-İmza Kartlar ana sayfa">
+      <img src="assets/app-icon.png" alt="" width="48" height="48">
+      <span><strong>e‑İmza Kartlar</strong><small>Destek merkezi</small></span>
+    </a>
+    <nav aria-label="Ana menü">
+      <a href="support.html" aria-current="page">Destek</a>
+      <a href="privacy.html">Gizlilik</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="page-hero support-hero">
+      <div>
+        <span class="eyebrow"><span class="status-dot"></span> Uygulama desteği</span>
+        <h1>Birlikte<br><em>çözelim.</em></h1>
+        <p>Kart okuyucu, sertifika, PIN veya portal akışında sorun yaşıyorsanız aşağıdaki kontrollere sırayla ilerleyin.</p>
+      </div>
+      <aside class="version-card" aria-label="Uygulama gereksinimleri">
+        <span class="kicker">GEREKSİNİMLER</span>
+        <strong>iOS 17 veya üzeri</strong>
+        <p>Akıllı kart testi USB/CCID okuyucu bağlı fiziksel iPhone’da yapılmalıdır.</p>
+        <span class="version-pill">Sürüm 1.0 · Build 19</span>
+      </aside>
+    </section>
+
+    <nav class="anchor-nav" aria-label="Sayfa içi menü">
+      <a href="#baslangic">Başlangıç</a>
+      <a href="#edevlet">e‑Devlet</a>
+      <a href="#portallar">Diğer portallar</a>
+      <a href="#sorun-giderme">Sorun giderme</a>
+      <a href="#sss">SSS</a>
+    </nav>
+
+    <section class="content-section" id="baslangic">
+      <div class="content-intro">
+        <span class="kicker">01 · BAŞLANGIÇ</span>
+        <h2>Önce bağlantıyı doğrulayın.</h2>
+        <p>Simülatör kart okuyucuyu göremez. Donanım testini uygulamanın TestFlight veya App Store sürümüyle fiziksel iPhone üzerinde yapın.</p>
+      </div>
+      <ol class="step-list">
+        <li><span>1</span><div><strong>Okuyucuyu bağlayın</strong><p>CCID uyumlu okuyucuyu uygun USB‑C veya Lightning adaptörüyle iPhone’a takın.</p></div></li>
+        <li><span>2</span><div><strong>Kartı yerleştirin</strong><p>Kartın okuyucuya tam oturduğundan emin olun; gerekiyorsa okuyucuyu çıkarıp yeniden takın.</p></div></li>
+        <li><span>3</span><div><strong>E‑İmza Test Merkezi’ni açın</strong><p>Uygulamadaki test kartından okuyucu, kart profili ve sertifika sonucunu kontrol edin.</p></div></li>
+        <li><span>4</span><div><strong>Sonra portalı açın</strong><p>Donanım testi hazır durumuna gelmeden gerçek bir giriş veya imza akışına başlamayın.</p></div></li>
+      </ol>
+      <div class="note note-warning">
+        <span aria-hidden="true">!</span>
+        <p><strong>PIN güvenliği:</strong> PIN’inizi ekran görüntüsüne, destek talebine veya başka bir kişiye yazmayın. Yanlış denemeler kartınızın kilitlenmesine yol açabilir.</p>
+      </div>
+    </section>
+
+    <section class="content-section split-section" id="edevlet">
+      <div class="content-intro">
+        <span class="kicker">02 · E‑DEVLET</span>
+        <h2>İşlem koduyla imzalama akışı.</h2>
+        <p>e‑Devlet Elektronik İmza sayfası uygulama içinde açılır. İşlem kodu oluştuktan sonra uygulama desteklenen kart profiliyle imzalama adımını başlatır.</p>
+      </div>
+      <div class="flow-card red-flow">
+        <div><span>1</span><p>Resmî e‑Devlet ekranında gerekli bilgileri girin.</p></div>
+        <div><span>2</span><p>Oluşan işlem kodunun uygulama tarafından algılanmasını bekleyin.</p></div>
+        <div><span>3</span><p>Gösterilen kart ve sertifika bilgisini kontrol edin.</p></div>
+        <div><span>4</span><p>PIN’i yalnızca uygulamadaki güvenli kart alanına girip imzayı tamamlayın.</p></div>
+      </div>
+      <div class="note note-info">
+        <span aria-hidden="true">i</span>
+        <p>PIN geliştiriciye veya e‑Devlet’e gönderilmez; doğrudan bağlı akıllı kartın doğrulama komutuna iletilir. İşlem kodu ve imzalı veri, girişin tamamlanması için resmî e‑Devlet hizmetine gönderilir.</p>
+      </div>
+    </section>
+
+    <section class="content-section" id="portallar">
+      <div class="content-intro">
+        <span class="kicker">03 · PORTALLAR</span>
+        <h2>Her portalın giriş yöntemi farklıdır.</h2>
+        <p>Uygulama portal erişimini tek yerde toplar; fakat resmî kurumların kendi giriş yöntemi, cihaz desteği ve hizmet sürekliliği ilgili kuruma aittir.</p>
+      </div>
+      <div class="comparison-grid">
+        <article>
+          <span class="comparison-tag red-tag">UYGULAMA DESTEKLİ</span>
+          <h3>e‑Devlet e‑İmza</h3>
+          <p>İşlem kodu algılama, desteklenen kart profilini okuma ve imzalı veriyi resmî servise gönderme akışı uygulama tarafından yürütülür.</p>
+        </article>
+        <article>
+          <span class="comparison-tag blue-tag">RESMÎ WEB AKIŞI</span>
+          <h3>UYAP, UETS, KEP ve diğerleri</h3>
+          <p>Uygulama ilgili HTTPS giriş sayfasını açar. Web sayfasının kartı doğrudan tanıması, portalın iOS ve kart okuyucu desteğine bağlıdır.</p>
+        </article>
+      </div>
+      <div class="note note-neutral">
+        <span aria-hidden="true">→</span>
+        <p>UYAP sayfasındaki “Cihaz seçiniz” alanı boşsa yalnızca sayfayı yenilemek yeterli olmayabilir. Önce uygulamadaki kart testini doğrulayın; resmî portal iOS üzerinden cihaz erişimini desteklemiyorsa uygulama bunu web sayfası adına aşamaz.</p>
+      </div>
+    </section>
+
+    <section class="content-section" id="sorun-giderme">
+      <div class="content-intro">
+        <span class="kicker">04 · SORUN GİDERME</span>
+        <h2>En sık karşılaşılan durumlar.</h2>
+      </div>
+      <div class="troubleshooting-grid">
+        <article><span>USB</span><h3>Okuyucu görünmüyor</h3><p>Fiziksel iPhone kullandığınızı, adaptörün veri aktarımını desteklediğini ve okuyucunun CCID uyumlu olduğunu kontrol edin.</p></article>
+        <article><span>ATR</span><h3>Kart profili desteklenmiyor</h3><p>Kart algılanıp profil eşleşmiyorsa ATR bilgisini PIN içermeden destek talebine ekleyin. Her kart işletim sistemi aynı değildir.</p></article>
+        <article><span>CER</span><h3>Sertifika bulunamadı</h3><p>Kartın doğru yönde takıldığını ve nitelikli elektronik sertifikanın geçerli olduğunu sağlayıcınızın araçlarıyla doğrulayın.</p></article>
+        <article><span>WEB</span><h3>Portal yüklenmiyor</h3><p>İnternet bağlantısını kontrol edin, sayfayı yenileyin ve resmî hizmette bakım veya kesinti olup olmadığını inceleyin.</p></article>
+      </div>
+    </section>
+
+    <section class="content-section" id="sss">
+      <div class="content-intro">
+        <span class="kicker">05 · SIK SORULANLAR</span>
+        <h2>Kısa ve açık yanıtlar.</h2>
+      </div>
+      <div class="faq-list">
+        <details><summary>Kart PIN’im kaydediliyor mu?</summary><p>Hayır. PIN, işlem sırasında bellekte tutulur, doğrudan akıllı karta iletilir ve geliştirici tarafından işletilen bir sunucuya gönderilmez. PIN’i destek talebinde paylaşmayın.</p></details>
+        <details><summary>Uygulama hangi kartları destekliyor?</summary><p>Mevcut sürüm test edilmiş KamuSM/AKİS ile belirli ArkSigner/Arkİmza profillerini tanır. Aynı sağlayıcının farklı kart işletim sistemleri farklı davranabilir; uygulamadaki E‑İmza Test Merkezi en güvenilir kontroldür.</p></details>
+        <details><summary>Simülatörde e‑imza deneyebilir miyim?</summary><p>Arayüz akışını görebilirsiniz ancak gerçek USB/CCID okuyucu ve akıllı kart imzası için fiziksel iPhone gerekir.</p></details>
+        <details><summary>Destek satın alımı bir özellik açar mı?</summary><p>Hayır. Uygulama içindeki geliştiriciye destek seçenekleri isteğe bağlı, tüketilebilir satın alımlardır; herhangi bir özellik veya içerik açmaz.</p></details>
+        <details><summary>Uygulama resmî bir kurum uygulaması mı?</summary><p>Hayır. e‑İmza Kartlar bağımsız bir uygulamadır; UYAP, e‑Devlet, PTT, Sağlık Bakanlığı veya diğer kurumlarla bağlı, onaylı ya da sponsorlu değildir.</p></details>
+      </div>
+    </section>
+
+    <section class="issue-panel">
+      <div>
+        <span class="kicker">HALA ÇÖZÜLMEDİ Mİ?</span>
+        <h2>Güvenli bir destek talebi oluşturun.</h2>
+        <p>iOS sürümü, uygulama build numarası, okuyucu modeli, kart sağlayıcısı ve ekrandaki hata metnini ekleyin. T.C. kimlik numarası, sertifika içeriği veya PIN paylaşmayın.</p>
+      </div>
+      <a class="button button-light" data-github-issue href="#" aria-disabled="true">Sorun bildir <span aria-hidden="true">↗</span></a>
+      <p class="issue-hint" data-issue-hint>GitHub Pages yayını algılandığında sorun bildirme bağlantısı otomatik oluşur.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand"><img src="assets/app-icon.png" alt="" width="36" height="36"><span><strong>e‑İmza Kartlar</strong><small>Bağımsız bir uygulamadır.</small></span></div>
+    <div class="footer-links"><a href="index.html">Ana sayfa</a><a href="privacy.html">Gizlilik</a></div>
+    <p class="copyright">© <span data-current-year>2026</span> e‑İmza Kartlar</p>
+  </footer>
+  <script src="site.js" defer></script>
+</body>
+</html>
